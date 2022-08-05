@@ -1,3 +1,6 @@
+# About This Apps
+This application is used to operate Create Read Update Delete using API. This application is just an example so I made it without using authentication to speed things up. If you want to use this in production you have to add an authentication feature for the security of your data, thanks hope it helps you.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
