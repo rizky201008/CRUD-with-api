@@ -48,4 +48,9 @@ class NoteController extends Controller
             return response()->json(['message' => "Data Gagal Diupdate"], 400);
         }
     }
+    public function view()
+    {
+        $note = Note::all();
+        return response()->json($note);
+    }
 }
