@@ -17,6 +17,8 @@ use Illuminate\Support\Facades\Route;
 // Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 //     return $request->user();
 // });
-Route::post('/add',[NoteController::class, 'add']);
+Route::post('/create',[NoteController::class, 'add']);
 Route::post('/update',[NoteController::class, 'update']);
 Route::post('/delete',[NoteController::class, 'delete']);
+Route::post('/list',[NoteController::class, 'view']);
+// Route::get('/list/{id}',[NoteController::class, 'detail']);
